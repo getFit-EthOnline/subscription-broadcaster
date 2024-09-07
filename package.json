@@ -1,0 +1,15 @@
+{
+  "name": "getfit-cron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@redis/client": "^1.6.0",
+    "node-cron": "^3.0.3"
+  }
+}
