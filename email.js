@@ -14,7 +14,7 @@ export const sendEmail = async ({ email, msg }) => {
   try {
     const mailOptions = {
       from: process.env.USER_EMAIL,
-      to: Array.isArray(email) ? email.join(", ") : email,
+      to: email,
       subject: `Welcome to the club`,
       html: `
                 <h1 style="color: green;">${msg},</h1>
