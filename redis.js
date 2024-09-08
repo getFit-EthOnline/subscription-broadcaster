@@ -2,7 +2,7 @@ import { createClient } from "@redis/client";
 
 export const getRedisClient = async () => {
   const client = createClient({
-    url: process.env.REDIS_CONNECTION_STRING,
+    url: "redis://default:kbfbEOsotLmdeAOAmJstkvVJOZCgkHpI@junction.proxy.rlwy.net:13528",
   });
 
   client.on("error", (err) => {
